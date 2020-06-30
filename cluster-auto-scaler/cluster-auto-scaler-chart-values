@@ -1,0 +1,12 @@
+﻿rbac:
+  create: true
+  serviceAccountAnnotations:
+    eks.amazonaws.com/role-arn: "arn:aws:iam::858947546191:role/cluster-autoscaler"
+
+autoDiscovery:
+  clusterName: $CLUSTER_NAME #Session variable
+  enabled: true
+
+cloudProvider: "aws"
+
+awsRegion: $AWS_REGION #Session variable

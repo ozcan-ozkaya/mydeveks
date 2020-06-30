@@ -1,0 +1,6 @@
+﻿AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
+AWS_REGION = ""
+cluster_name = "mydev-eks"
+k8s_service_account_namespace = "kube-system"
+k8s_service_account_name = "cluster-autoscaler-aws-cluster-autoscaler"

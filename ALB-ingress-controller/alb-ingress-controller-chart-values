@@ -1,0 +1,12 @@
+﻿autoDiscoverAwsRegion: "true"
+
+autoDiscoverAwsVpcID: "true"
+
+clusterName: $CLUSTER_NAME
+
+scope.ingressClass: "alb"
+
+# scope.watchNamespace: $NAMESPACE #Watches only a specific namespace
+
+rbac.create: "true"
+rbac.serviceAccount.create: "true"

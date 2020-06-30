@@ -1,0 +1,11 @@
+﻿AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
+AWS_REGION = "eu-west-2"
+cluster_name = "mydev-eks"
+ALB_NAMESPACE = "" # Limit target namespace, leave null for default (all namespaces)
+k8s_service_account_namespace = "kube-system"
+k8s_service_account_name = "cluster-autoscaler-aws-cluster-autoscaler"
+EXTDNS_NAMESPACE = "" # Limit sources of endpoints to a specific namespace, leave null for default (default: all namespaces)
+HOSTED_ZONE_NAME = "mydeveks.com" # Limit possible target zones by domain suffixes (optional)
+HOSTED_ZONE_IDENTIFIER = ""
+SERVICE_TYPE_FILTER = "" # The service types to take care about, leave null for default (default: all, options: ClusterIP, NodePort, LoadBalancer, ExternalName)
